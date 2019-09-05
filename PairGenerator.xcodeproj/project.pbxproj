@@ -14,6 +14,7 @@
 		5362457C232061D10068759A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5362457A232061D10068759A /* LaunchScreen.storyboard */; };
 		53624586232061E60068759A /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53624585232061E60068759A /* CloudKit.framework */; };
 		5362458D2320629E0068759A /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5362458C2320629E0068759A /* Person.swift */; };
+		5362458F232163160068759A /* PersonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5362458E232163160068759A /* PersonController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		53624583232061E30068759A /* PairGenerator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PairGenerator.entitlements; sourceTree = "<group>"; };
 		53624585232061E60068759A /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		5362458C2320629E0068759A /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		5362458E232163160068759A /* PersonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 		5362458B232062460068759A /* ModelControllers */ = {
 			isa = PBXGroup;
 			children = (
+				5362458E232163160068759A /* PersonController.swift */,
 			);
 			path = ModelControllers;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5362458F232163160068759A /* PersonController.swift in Sources */,
 				5362458D2320629E0068759A /* Person.swift in Sources */,
 				53624574232061CF0068759A /* ViewController.swift in Sources */,
 				53624572232061CF0068759A /* AppDelegate.swift in Sources */,
@@ -351,7 +355,7 @@
 				CODE_SIGN_ENTITLEMENTS = PairGenerator/PairGenerator.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8MJ3MC3A9A;
-				INFOPLIST_FILE = PairGenerator/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PairGenerator/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -370,7 +374,7 @@
 				CODE_SIGN_ENTITLEMENTS = PairGenerator/PairGenerator.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8MJ3MC3A9A;
-				INFOPLIST_FILE = PairGenerator/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PairGenerator/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
