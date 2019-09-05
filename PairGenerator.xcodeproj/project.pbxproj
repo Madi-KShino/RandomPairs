@@ -8,19 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		53624572232061CF0068759A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53624571232061CF0068759A /* AppDelegate.swift */; };
-		53624574232061CF0068759A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53624573232061CF0068759A /* ViewController.swift */; };
 		53624577232061CF0068759A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53624575232061CF0068759A /* Main.storyboard */; };
 		53624579232061D10068759A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53624578232061D10068759A /* Assets.xcassets */; };
 		5362457C232061D10068759A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5362457A232061D10068759A /* LaunchScreen.storyboard */; };
 		53624586232061E60068759A /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53624585232061E60068759A /* CloudKit.framework */; };
 		5362458D2320629E0068759A /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5362458C2320629E0068759A /* Person.swift */; };
 		5362458F232163160068759A /* PersonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5362458E232163160068759A /* PersonController.swift */; };
+		5362459123216A680068759A /* PairingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5362459023216A680068759A /* PairingListViewController.swift */; };
+		5362459323216A760068759A /* AddNewPersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5362459223216A760068759A /* AddNewPersonViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5362456E232061CF0068759A /* PairGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PairGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53624571232061CF0068759A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		53624573232061CF0068759A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		53624576232061CF0068759A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		53624578232061D10068759A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5362457B232061D10068759A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -29,6 +29,8 @@
 		53624585232061E60068759A /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		5362458C2320629E0068759A /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		5362458E232163160068759A /* PersonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonController.swift; sourceTree = "<group>"; };
+		5362459023216A680068759A /* PairingListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairingListViewController.swift; sourceTree = "<group>"; };
+		5362459223216A760068759A /* AddNewPersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewPersonViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +105,8 @@
 		536245892320622A0068759A /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				53624573232061CF0068759A /* ViewController.swift */,
+				5362459023216A680068759A /* PairingListViewController.swift */,
+				5362459223216A760068759A /* AddNewPersonViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -205,8 +208,9 @@
 			files = (
 				5362458F232163160068759A /* PersonController.swift in Sources */,
 				5362458D2320629E0068759A /* Person.swift in Sources */,
-				53624574232061CF0068759A /* ViewController.swift in Sources */,
+				5362459323216A760068759A /* AddNewPersonViewController.swift in Sources */,
 				53624572232061CF0068759A /* AppDelegate.swift in Sources */,
+				5362459123216A680068759A /* PairingListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
